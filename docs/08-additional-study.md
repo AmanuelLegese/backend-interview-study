@@ -499,33 +499,80 @@ Security:
 
 ## 6. Study Schedule
 
+> **Your schedule:** 8-hour job, study at night
+> **Available time:** 2-3 hours weekday nights, 4-6 hours weekends
+> **Total:** ~18-20 hours/week
+
+### Daily Routine
+
 ```
-WEEK 1 — Foundations
-├── Day 1-2: PHP Internals (read docs/01-php-internals.md)
-├── Day 3-4: Laravel (read docs/02-laravel.md)
-├── Day 5-6: Database Design (read docs/03-database-design.md)
-└── Day 7: Coding challenges (2-3 problems)
+WEEKDAYS (Mon-Fri)
+├── 9:00 PM - 10:00 PM  →  Read docs (theory)
+├── 10:00 PM - 11:00 PM →  Practice (coding/explain out loud)
+└── 11:00 PM            →  Rest
 
-WEEK 2 — API & Scalability
-├── Day 1-2: API Design (read docs/04-api-design.md)
-├── Day 3-4: Scalability (read docs/05-scalability.md)
-├── Day 5-6: DevOps (read docs/06-devops.md)
-└── Day 7: Coding challenges (2-3 problems)
-
-WEEK 3 — Build Project
-├── Day 1-2: Set up Laravel + Docker + Auth
-├── Day 3-4: Posts CRUD + Policies + Idempotency
-├── Day 5: Rate limiting + Tests
-└── Day 6-7: CI/CD + Polish
-
-WEEK 4 — Interview Prep
-├── Day 1-2: Mock interview topics (docs/07-mock-interview.md)
-├── Day 3: System design practice
-├── Day 4: Weak areas review
-├── Day 5: Coding challenges
-├── Day 6: Explain concepts out loud (2 min each)
-└── Day 7: Rest + light review
+WEEKENDS (Sat-Sun)
+├── Morning: Rest / light review
+├── Afternoon (2-4 hrs) →  Deep work (build project, coding challenges)
+└── Evening (1-2 hrs)   →  Review + plan next day
 ```
+
+### WEEK 1 — Foundations
+
+```
+Mon night  → PHP Internals (read 01-php-internals.md)
+Tue night  → PHP Internals continued (FPM, comparison)
+Wed night  → Laravel (read 02-laravel.md — Policies vs Gates)
+Thu night  → Laravel continued (middleware, Eloquent)
+Fri night  → Coding challenge (1 problem on LeetCode)
+Sat        → Database Design (read 03-database-design.md)
+Sun        → Database continued (NULL, upserts, transactions)
+```
+
+### WEEK 2 — API & Scalability
+
+```
+Mon night  → API Design (read 04-api-design.md — REST, versioning)
+Tue night  → API Design continued (idempotency keys, rate limiting)
+Wed night  → Scalability (read 05-scalability.md — connection pooling)
+Thu night  → Scalability continued (caching, queues)
+Fri night  → Coding challenge (1 problem)
+Sat        → DevOps (read 06-devops.md — Docker, CI/CD)
+Sun        → Mock interview practice (read 07-mock-interview.md)
+```
+
+### WEEK 3 — Build Project
+
+```
+Mon night  → Set up Laravel + Docker + Sanctum auth
+Tue night  → Posts CRUD + migrations
+Wed night  → Policies + Idempotency middleware
+Thu night  → Rate limiting + error responses
+Fri night  → Feature tests
+Sat        → CI/CD + polish + code review
+Sun        → Push to GitHub + document
+```
+
+### WEEK 4 — Interview Prep
+
+```
+Mon night  → Mock interview topics (explain 3 topics out loud)
+Tue night  → Mock interview topics (explain 3 more)
+Wed night  → System design practice (1 question)
+Thu night  → Weak areas review (re-read feedback files)
+Fri night  → Coding challenges (2 problems)
+Sat        → Full mock interview (explain all 10 topics)
+Sun        → Light review + rest before interview
+```
+
+### Progress Tracker
+
+| Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
+|------|-----|-----|-----|-----|-----|-----|-----|
+| 1 | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 2 | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 3 | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 4 | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
 ---
 
